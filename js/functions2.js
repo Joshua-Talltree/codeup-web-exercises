@@ -131,3 +131,4 @@ function applyDiscount(origPrice, discPercent){
 }
 
 console.log(applyDiscount(67.00, 0.6));
+

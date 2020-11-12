@@ -20,11 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1372b3d-5e56-42a2-b7e0-52a010b2c922" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variable-types.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variable-types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conditionals.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/functions2.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/functions2.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,13 +34,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/js" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -92,7 +92,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604503962742</updated>
-      <workItem from="1604503963755" duration="29516000" />
+      <workItem from="1604503963755" duration="34534000" />
+      <workItem from="1604942204911" duration="470000" />
+      <workItem from="1604942695014" duration="12505000" />
+      <workItem from="1605036690928" duration="7922000" />
+      <workItem from="1605069393220" duration="15000" />
+      <workItem from="1605074300064" duration="59000" />
     </task>
     <servers />
   </component>
@@ -109,11 +114,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="698" y="229" key="#JavaScript" timestamp="1605041723610">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="698" y="229" key="#JavaScript/0.0.1920.1040@0.0.1920.1040" timestamp="1605041723610" />
+    <state x="1004" y="383" key="FileChooserDialogImpl" timestamp="1604935135969">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1004" y="383" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604935135969" />
+    <state x="646" y="211" key="RollbackChangesDialog" timestamp="1604979930234">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="646" y="211" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604979930234" />
     <state x="488" y="199" width="585" height="801" key="find.popup" timestamp="1604700902246">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="488" y="199" width="585" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604700902246" />
+    <state x="887" y="347" width="672" height="678" key="search.everywhere.popup" timestamp="1604955800673">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="887" y="347" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604955800673" />
   </component>
 </project>
