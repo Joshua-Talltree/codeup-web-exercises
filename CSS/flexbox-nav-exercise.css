@@ -16,14 +16,22 @@ ul {
 nav a {
     text-decoration: none;
     color: white;
-    font-family: Verdana;
+    font-family: 'Work Sans', sans-serif;
     display: inline-block;
-    padding: 1em;
+    justify-items: center;
 }
 nav a:hover {
     background: black;
 }
 nav ul li:nth-child(5) {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
     margin-left: auto;
-    padding-right: 47em;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    position: center;
+}
+
+nav ul li:nth-child(6) {
+    margin-left: auto;
 }
