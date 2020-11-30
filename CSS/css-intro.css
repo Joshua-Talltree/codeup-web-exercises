@@ -1,0 +1,21 @@
+#super {
+        color: mediumslateblue;
+        background-color: palevioletred;
+        text-decoration: underline;
+        font-family: Impact,serif;
+}
+#big {
+        color: blue;
+        background-color: cornflowerblue;
+        font-weight: inherit;
+}
+#large {
+        color: bisque;
+        background-color: lightcoral;
+        font-family: Apple Chancery,serif;
+}
+#smash {
+        color: indianred;
+        background-color: firebrick;
+        font-family: Jaini, serif;
+}

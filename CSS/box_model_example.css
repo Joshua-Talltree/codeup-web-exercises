@@ -1,0 +1,16 @@
+body {
+    background-color: goldenrod;
+}
+
+#outer-box {
+    width: 500px;
+    height: 180px;
+    padding: 10px;
+    background-color: darkred;
+}
+
+#inner-box {
+    padding: 15px;
+    border: black 100px;
+    background-color: powderblue;
+}
