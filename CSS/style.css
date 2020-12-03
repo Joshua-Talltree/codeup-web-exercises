@@ -1,4 +1,25 @@
-.fancy-header {
-    color: purple;
+body {
+    background-color: burlywood;
+    background-image: url("../img/download.jpeg");
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+
+h1 {
+    color: midnightblue;
     text-decoration: underline;
+    text-align: center;
+}
+
+h2 {
+    color: dodgerblue;
+    text-decoration: underline;
+}
+
+table {
+    color: aliceblue;
+}
+
+footer>em {
+    color: beige;
 }
