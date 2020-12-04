@@ -25,6 +25,7 @@ for (var allCones = a = 1; a < 100; a++) {
         // number isn't even
         // odd numbers aren't as cool
         // skip the rest of the loop and continue with the next iteration
+        //
         continue;
     }
 }

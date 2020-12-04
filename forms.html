@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register With Us</title>
+</head>
+<body>
+    <h1>Sign Up Form</h1>
+            <div>
+                <form method="POST" action="https://request-inspector.glitch.me/">
+                    <h3>Login Here</h3>
+                Email Address:
+                <input type="text" id="email address" name="email address" placeholder="E-mail address">
+                <br>
+
+<!--right here-->
+                Password: <input type="password" value="FakePSW" id="myInput">
+                    <input type="checkbox" onclick="myFunction()">Show Password
+                    <script>
+                        function myFunction() {
+                            var x =
+                                document.getElementById("myInput");
+                            if (x.type === "password") {
+                                x.type = "text";
+                            } else {
+                                x.type = "password";
+                            }
+                        }
+                    </script>
+            </div>
+            <br>
+                <hr>
+            <div>
+                Bio:<br><textarea name="Bio" placeholder="Tell us about yourself"></textarea>
+            </div>
+                <hr>
+            <div>
+                <h3>How did you hear about us?</h3>
+                Billboard <input type="radio" name="hear" value="a"><br>
+                Radio Ad <input type="radio" name="hear" value="b"><br>
+                Internet Ad <input type="radio" name="hear" value="c"><br>
+                Other <input type="radio" name="hear" value="d"><br>
+            </div>
+
+            <h3>Which Web Browser Do You Use?</h3>
+            <select name="web_browser">
+                <option value="explorer">Explorer</option>
+                <option value="chrome">Chrome</option>
+                <option value="firefox">Fire Fox</option>
+                <option value="opera">Opera</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit">
+        </form>
+    </body>
+</html>

@@ -27,6 +27,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1372b3d-5e56-42a2-b7e0-52a010b2c922" name="Default Changelist" comment="Iterating JS missing file...">
+      <change afterPath="$PROJECT_DIR$/while.js.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,9 +38,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -104,15 +105,13 @@
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.welcome.html">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -181,7 +180,8 @@
       <workItem from="1606962207521" duration="11601000" />
       <workItem from="1607014184228" duration="39000" />
       <workItem from="1607015337388" duration="5307000" />
-      <workItem from="1607050902862" duration="675000" />
+      <workItem from="1607050902862" duration="1008000" />
+      <workItem from="1607114746181" duration="307000" />
     </task>
     <task id="LOCAL-00001" summary="Loops add to top off the day">
       <created>1605243248164</created>

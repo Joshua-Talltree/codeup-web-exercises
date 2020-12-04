@@ -103,19 +103,19 @@ alert (analyzeColor(colorPrompt));
  * return value.
  */
 
-function calculateTotal(luckyNumber, billTotal) {
-   switch(luckyNumber) {
-        case 0:
-            return billTotal;
-        case 1:
-            return billTotal - billTotal*.1;
-        case 2:
-   }        return billTotal - billTotal*.25;
-        case 3:
-            return billTotal - billTotal*.35;
-        case 4:
-}           return billTotal - billTotal*.45;
-}
+// function calculateTotal(luckyNumber, billTotal) {
+//    switch(luckyNumber) {
+//         case 0:
+//             return billTotal;
+//         case 1:
+//             return billTotal - billTotal*.1;
+//         case 2:
+//    }        return billTotal - billTotal*.25;
+//         case 3:
+//             return billTotal - billTotal*.35;
+//         case 4:
+// }           return billTotal - billTotal*.45;
+// }
 //     /**
 //  * TODO:
 //  * Uncomment the line below to generate a random number between 0 and 6.
