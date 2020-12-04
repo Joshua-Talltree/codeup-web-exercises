@@ -16,17 +16,18 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1372b3d-5e56-42a2-b7e0-52a010b2c922" name="Default Changelist" comment="Iterating JS missing file...">
-      <change beforePath="$PROJECT_DIR$/js/arrays.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/conditionals-lec-student.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/conditonals.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/conditonals.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/iterating.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/iterating.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/objects.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/practice-conditionals.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/practice-conditionals.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/variable-types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +37,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -48,7 +49,7 @@
         <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/js" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="JsFlowSettings">
@@ -102,17 +103,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.welcome.html">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="order-pizza.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/codeup-web-exercises/order-pizza.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -176,7 +166,7 @@
       <workItem from="1606921652021" duration="8842000" />
       <workItem from="1606962207521" duration="11601000" />
       <workItem from="1607014184228" duration="39000" />
-      <workItem from="1607015337388" duration="864000" />
+      <workItem from="1607015337388" duration="5307000" />
     </task>
     <task id="LOCAL-00001" summary="Loops add to top off the day">
       <created>1605243248164</created>
@@ -430,7 +420,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607006294079</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="For loops missing JS file..">
+      <created>1607029915231</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1607029915231</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Break and Continue JS missing file...">
+      <created>1607030044050</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1607030044050</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,7 +445,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -451,8 +467,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
-    <MESSAGE value="New loops to add for the day" />
-    <MESSAGE value="new arrays html and js files for today..." />
     <MESSAGE value="Github HTML doc from exercise #2" />
     <MESSAGE value="CSS inline and external exercise..." />
     <MESSAGE value="Login form HTML/CSS from Friday 11/20/2020." />
@@ -476,7 +490,9 @@
     <MESSAGE value="iterating JS missing file 12/2/2020" />
     <MESSAGE value="Plant Arrays JS missing file 12/2/2020" />
     <MESSAGE value="Iterating JS missing file..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Iterating JS missing file..." />
+    <MESSAGE value="For loops missing JS file.." />
+    <MESSAGE value="Break and Continue JS missing file..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Break and Continue JS missing file..." />
   </component>
   <component name="WindowStateProjectService">
     <state x="530" y="219" key="#Inspections" timestamp="1606534002052">
@@ -503,8 +519,8 @@
       <screen x="0" y="25" width="1792" height="1025" />
     </state>
     <state x="643" y="396" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.25.1792.1025@0.25.1792.1025" timestamp="1606934461519" />
-    <state x="455" y="105" width="1792" height="1026" key="CommitChangelistDialog2" timestamp="1607006293964">
-      <screen x="0" y="25" width="1792" height="1027" />
+    <state x="0" y="26" width="1792" height="1026" key="CommitChangelistDialog2" timestamp="1607050749563">
+      <screen x="0" y="25" width="1792" height="1035" />
     </state>
     <state x="456" y="90" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1606860290730" />
     <state x="456" y="107" key="CommitChangelistDialog2/0.25.1792.1017@0.25.1792.1017" timestamp="1606108192013" />
@@ -513,14 +529,18 @@
     <state x="475" y="124" key="CommitChangelistDialog2/0.25.1792.1023@0.25.1792.1023" timestamp="1606711894632" />
     <state x="456" y="107" key="CommitChangelistDialog2/0.25.1792.1024@0.25.1792.1024" timestamp="1606768381661" />
     <state x="456" y="107" key="CommitChangelistDialog2/0.25.1792.1025@0.25.1792.1025" timestamp="1606869699938" />
-    <state x="0" y="25" width="1792" height="1026" key="CommitChangelistDialog2/0.25.1792.1026@0.25.1792.1026" timestamp="1606973522545" />
-    <state x="455" y="105" key="CommitChangelistDialog2/0.25.1792.1027@0.25.1792.1027" timestamp="1607006293964" />
-    <state x="359" y="92" width="1433" height="821" key="DiffContextDialog" timestamp="1607007500206">
-      <screen x="0" y="25" width="1792" height="1027" />
+    <state x="0" y="25" width="1792" height="1026" key="CommitChangelistDialog2/0.25.1792.1026@0.25.1792.1026" timestamp="1607029915135" />
+    <state x="455" y="105" key="CommitChangelistDialog2/0.25.1792.1027@0.25.1792.1027" timestamp="1607030043955" />
+    <state x="0" y="26" key="CommitChangelistDialog2/0.25.1792.1035@0.25.1792.1035" timestamp="1607050749563" />
+    <state x="359" y="92" width="1433" height="820" key="DiffContextDialog" timestamp="1607030220740">
+      <screen x="0" y="25" width="1792" height="1029" />
     </state>
     <state x="180" y="56" key="DiffContextDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1605407695395" />
     <state x="180" y="76" key="DiffContextDialog/0.25.1792.1024@0.25.1792.1024" timestamp="1606712160748" />
-    <state x="359" y="92" width="1433" height="821" key="DiffContextDialog/0.25.1792.1027@0.25.1792.1027" timestamp="1607007500206" />
+    <state x="359" y="92" width="1433" height="820" key="DiffContextDialog/0.25.1792.1025@0.25.1792.1025" timestamp="1607025512768" />
+    <state x="359" y="92" width="1433" height="820" key="DiffContextDialog/0.25.1792.1026@0.25.1792.1026" timestamp="1607029815541" />
+    <state x="359" y="92" width="1433" height="820" key="DiffContextDialog/0.25.1792.1027@0.25.1792.1027" timestamp="1607030169911" />
+    <state x="359" y="92" width="1433" height="820" key="DiffContextDialog/0.25.1792.1029@0.25.1792.1029" timestamp="1607030220740" />
     <state x="1004" y="383" key="FileChooserDialogImpl" timestamp="1604935135969">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -610,7 +630,7 @@
     <state x="397" y="174" key="SettingsEditor/0.23.1792.1030@0.23.1792.1030" timestamp="1605220314483" />
     <state x="397" y="175" key="SettingsEditor/0.25.1792.1024@0.25.1792.1024" timestamp="1605901127538" />
     <state x="397" y="175" key="SettingsEditor/0.25.1792.1026@0.25.1792.1026" timestamp="1605893083264" />
-    <state x="496" y="272" key="Vcs.Push.Dialog.v2" timestamp="1607006306908">
+    <state x="496" y="272" key="Vcs.Push.Dialog.v2" timestamp="1607030060510">
       <screen x="0" y="25" width="1792" height="1027" />
     </state>
     <state x="496" y="270" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1606860114628" />
@@ -620,8 +640,8 @@
     <state x="496" y="271" key="Vcs.Push.Dialog.v2/0.25.1792.1023@0.25.1792.1023" timestamp="1606619629579" />
     <state x="496" y="272" key="Vcs.Push.Dialog.v2/0.25.1792.1024@0.25.1792.1024" timestamp="1606768392599" />
     <state x="496" y="272" key="Vcs.Push.Dialog.v2/0.25.1792.1025@0.25.1792.1025" timestamp="1606869706154" />
-    <state x="496" y="272" key="Vcs.Push.Dialog.v2/0.25.1792.1026@0.25.1792.1026" timestamp="1606973620044" />
-    <state x="496" y="272" key="Vcs.Push.Dialog.v2/0.25.1792.1027@0.25.1792.1027" timestamp="1607006306908" />
+    <state x="496" y="272" key="Vcs.Push.Dialog.v2/0.25.1792.1026@0.25.1792.1026" timestamp="1607029930162" />
+    <state x="496" y="272" key="Vcs.Push.Dialog.v2/0.25.1792.1027@0.25.1792.1027" timestamp="1607030060510" />
     <state x="833" y="0" width="113" height="1101" key="dock-window-1" timestamp="1606842724974">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
