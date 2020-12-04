@@ -1,6 +1,6 @@
 "use strict";
 
-// create a for loop that multiplies 7 by numbers 1 - 10.
+// create a for loop that multiplies 7 by numbers 1 - 10. //
 
 var result = '\n';
 var j = 7;

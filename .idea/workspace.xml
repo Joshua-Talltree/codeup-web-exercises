@@ -44,6 +44,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
@@ -103,6 +104,19 @@
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.welcome.html">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="order-pizza.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/codeup-web-exercises/order-pizza.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -167,6 +181,7 @@
       <workItem from="1606962207521" duration="11601000" />
       <workItem from="1607014184228" duration="39000" />
       <workItem from="1607015337388" duration="5307000" />
+      <workItem from="1607050902862" duration="675000" />
     </task>
     <task id="LOCAL-00001" summary="Loops add to top off the day">
       <created>1605243248164</created>
@@ -519,8 +534,8 @@
       <screen x="0" y="25" width="1792" height="1025" />
     </state>
     <state x="643" y="396" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.25.1792.1025@0.25.1792.1025" timestamp="1606934461519" />
-    <state x="0" y="26" width="1792" height="1026" key="CommitChangelistDialog2" timestamp="1607050749563">
-      <screen x="0" y="25" width="1792" height="1035" />
+    <state x="0" y="25" width="1792" height="1026" key="CommitChangelistDialog2" timestamp="1607051171697">
+      <screen x="0" y="25" width="1792" height="1026" />
     </state>
     <state x="456" y="90" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1606860290730" />
     <state x="456" y="107" key="CommitChangelistDialog2/0.25.1792.1017@0.25.1792.1017" timestamp="1606108192013" />
@@ -529,7 +544,7 @@
     <state x="475" y="124" key="CommitChangelistDialog2/0.25.1792.1023@0.25.1792.1023" timestamp="1606711894632" />
     <state x="456" y="107" key="CommitChangelistDialog2/0.25.1792.1024@0.25.1792.1024" timestamp="1606768381661" />
     <state x="456" y="107" key="CommitChangelistDialog2/0.25.1792.1025@0.25.1792.1025" timestamp="1606869699938" />
-    <state x="0" y="25" width="1792" height="1026" key="CommitChangelistDialog2/0.25.1792.1026@0.25.1792.1026" timestamp="1607029915135" />
+    <state x="0" y="25" width="1792" height="1026" key="CommitChangelistDialog2/0.25.1792.1026@0.25.1792.1026" timestamp="1607051171697" />
     <state x="455" y="105" key="CommitChangelistDialog2/0.25.1792.1027@0.25.1792.1027" timestamp="1607030043955" />
     <state x="0" y="26" key="CommitChangelistDialog2/0.25.1792.1035@0.25.1792.1035" timestamp="1607050749563" />
     <state x="359" y="92" width="1433" height="820" key="DiffContextDialog" timestamp="1607030220740">
@@ -630,8 +645,8 @@
     <state x="397" y="174" key="SettingsEditor/0.23.1792.1030@0.23.1792.1030" timestamp="1605220314483" />
     <state x="397" y="175" key="SettingsEditor/0.25.1792.1024@0.25.1792.1024" timestamp="1605901127538" />
     <state x="397" y="175" key="SettingsEditor/0.25.1792.1026@0.25.1792.1026" timestamp="1605893083264" />
-    <state x="496" y="272" key="Vcs.Push.Dialog.v2" timestamp="1607030060510">
-      <screen x="0" y="25" width="1792" height="1027" />
+    <state x="496" y="272" key="Vcs.Push.Dialog.v2" timestamp="1607051185076">
+      <screen x="0" y="25" width="1792" height="1026" />
     </state>
     <state x="496" y="270" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1606860114628" />
     <state x="496" y="270" key="Vcs.Push.Dialog.v2/0.25.1792.1017@0.25.1792.1017" timestamp="1606108205402" />
@@ -640,7 +655,7 @@
     <state x="496" y="271" key="Vcs.Push.Dialog.v2/0.25.1792.1023@0.25.1792.1023" timestamp="1606619629579" />
     <state x="496" y="272" key="Vcs.Push.Dialog.v2/0.25.1792.1024@0.25.1792.1024" timestamp="1606768392599" />
     <state x="496" y="272" key="Vcs.Push.Dialog.v2/0.25.1792.1025@0.25.1792.1025" timestamp="1606869706154" />
-    <state x="496" y="272" key="Vcs.Push.Dialog.v2/0.25.1792.1026@0.25.1792.1026" timestamp="1607029930162" />
+    <state x="496" y="272" key="Vcs.Push.Dialog.v2/0.25.1792.1026@0.25.1792.1026" timestamp="1607051185076" />
     <state x="496" y="272" key="Vcs.Push.Dialog.v2/0.25.1792.1027@0.25.1792.1027" timestamp="1607030060510" />
     <state x="833" y="0" width="113" height="1101" key="dock-window-1" timestamp="1606842724974">
       <screen x="0" y="0" width="1792" height="1120" />

@@ -15,7 +15,7 @@ do {
         alert("You picked a good one!");
         break;
     }
-} while (true)
+} while (true);
 
 // 3. Use a loop and the continue statement to output all the odd numbers between 1 and 50, except for the number the user entered.
 
@@ -31,4 +31,4 @@ do {
         alert("You picked a good one!");
         break;
     }
-} while (true)
+} while (true);
