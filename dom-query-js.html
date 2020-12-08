@@ -7,7 +7,8 @@
 <body>
 
 <h1 id="main-header">Hello World!</h1>
-<button id="btn1">Click Me!</button>
+<button id="btn1">Click and Read!</button>
+
 <ul>
     <li data-dbid="1">Item 1</li>
     <li data-dbid="2">Item 2</li>
@@ -15,7 +16,15 @@
     <li data-dbid="4">Item 4</li>
     <li data-dbid="5">Item 5</li>
 </ul>
+<button id="btn2">Click To See!</button>
+<br>
+<br>
+<button id="btn3">Click To Change!</button>
+
 <h2 id="sub-header">Hello Again.</h2>
+
+
+
 <p class="sub-paragraph">
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -26,6 +35,8 @@
     culpa qui officia deserunt mollit anim id est laborum.
 </p>
 
+<button id="btn4">Click To Reveal!</button>
+
 <script>
     (function() {
         "use strict";
@@ -34,12 +45,11 @@
 
 
         // TODO: Set inner html of mainHeader to "JavaScript is Cool"
-        mainHeader.innerHTML = "JavaScript is Cool";
+        // mainHeader.innerHTML = "JavaScript is Cool";
         var listener = function (event) {
             alert('JavaScript is Cool!');
         }
-        var btn1 = document.getElementById('btn1');
-        btn1.addEventListener('click', listener);
+        document.getElementById('btn1').addEventListener('click', listener);
 
         // TODO: Uncomment the next line and get the sub header element by id
         var subHeader = document.getElementById('sub-header');
@@ -59,16 +69,41 @@
             }
 
         }
+
+        var listener2 = function () {
+
+        }
+        listItems[i].style.color = "grey"
+        document.getElementById('btn2').addEventListener('click', listener2);
+
+
         // TODO: Set text color of li with dbid = 1 to blue
         // Change the body font color
-        listItems[0].style.color = "blue";
+
+        var listener3 = function () {
+            listItems[0].style.color = "blue";
+        }
+
+        document.getElementById('btn3').addEventListener('click', listener3);
 
 
         // TODO: Uncomment the next line and get all elements with class name sub-paragraph
         var subParagraphs = document.getElementsByClassName('sub-paragraph');
 
         // TODO: Change the text in the first sub paragraph to "Mission Accomplished!"
-        subParagraphs[0].innerText = "Mission Accomplished!";
+        // subParagraphs[0].innerText = "Mission Accomplished!";
+        var listener4 = function (event4) {
+            alert('Mission Accomplished!');
+        }
+        document.getElementById('btn4').addEventListener('click', listener4);
+
+        var button1 = documents.getElementById("btn1")
+        var button1 = documents.getElementById("btn1")
+        var button1 = documents.getElementById("btn1")
+        var button1 = documents.getElementById("btn1")
+        \
+
+
     })();
 </script>
 </body>
