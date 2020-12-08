@@ -27,10 +27,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1372b3d-5e56-42a2-b7e0-52a010b2c922" name="Default Changelist" comment="Iterating JS missing file...">
-      <change afterPath="$PROJECT_DIR$/BOM.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BOM.js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/defuse-the-bom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dom-query-js.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOM.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOM.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/BOM.js.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +96,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/.." />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -108,6 +108,19 @@
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.welcome.html">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="order-pizza.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/codeup-web-exercises/order-pizza.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -176,7 +189,7 @@
       <workItem from="1607114746181" duration="1311000" />
       <workItem from="1607302527628" duration="160000" />
       <workItem from="1607302781360" duration="7069000" />
-      <workItem from="1607371378717" duration="192000" />
+      <workItem from="1607371378717" duration="5316000" />
     </task>
     <task id="LOCAL-00001" summary="Loops add to top off the day">
       <created>1605243248164</created>
@@ -444,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607030044050</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Exercise for the day (BOM js files)..">
+      <created>1607372039849</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1607372039849</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,7 +497,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
-    <MESSAGE value="Github HTML doc from exercise #2" />
     <MESSAGE value="CSS inline and external exercise..." />
     <MESSAGE value="Login form HTML/CSS from Friday 11/20/2020." />
     <MESSAGE value="login CSS file update" />
@@ -502,17 +521,7 @@
     <MESSAGE value="Iterating JS missing file..." />
     <MESSAGE value="For loops missing JS file.." />
     <MESSAGE value="Break and Continue JS missing file..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Break and Continue JS missing file..." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/BOM.js</url>
-          <line>39</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Exercise for the day (BOM js files).." />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercise for the day (BOM js files).." />
   </component>
 </project>
