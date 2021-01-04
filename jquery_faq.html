@@ -5,48 +5,100 @@
     <title>Title</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="jquery_faq.css">
+    <style type="text/css">
+        .colorMe {background-color: yellow}
+    </style>
 </head>
 <body>
-<p class="container">National Parks FAQ:</p>
 
-<dl class="container">
+<button type="button" id="clickAndSee">Click to color me!</button>
+
+<h3>Yosemite National Park FAQ:</h3>
+<ul id="unorderedList">
+    <li>How do I get to Yosemite?
+
+        Keeping in mind that GPS units often provide incorrect driving directions in and around Yosemite, please take a look at our driving directions.</li>
+
+    <li>Are there vehicle restrictions in Yosemite?
+
+        Some roads have vehicle restrictions on height, length, and/or width.</li>
+
+    <li>Can I drive my own vehicle into the park?
+
+        You can drive your own vehicle into and around Yosemite. Shuttle buses are not mandatory, but are recommended (except in 2020, when they are not available).</li>
+</ul>
+<h3>Yellowstone National Park FAQ:</h3>
+<ul>
+    <li>Where do I Make Reservations to Stay in Yellowstone?
+
+        Yellowstone National Park Lodges operates the nine lodges in the park. All are open from late spring through fall, but only two are open in the winter: Old Faithful Snow Lodge and Mammoth Hot Springs Hotel. Be sure to make a reservation early!</li>
+
+    <li>How did Yellowstone get its name?
+
+        Yellowstone National Park is named after the Yellowstone River, the major river running through the park. According to French-Canadian trappers in the 1800s, they asked the name of the river from the Minnetaree tribe, who live in what is now eastern Montana. They responded “Mi tse a-da-zi,” which literally translates as “Rock Yellow River.” The trappers translated this into French as “Roche Jaune” or “Pierre Jaune.” In 1797, explorer-geographer David Thompson used the English translation—“Yellow Stone.” Lewis and Clark called the Yellowstone River by the French and English forms. Subsequent use formalized the name as “Yellowstone.</li>
+
+    <li>Can we swim in rivers and lakes?
+
+        Swimming is not recommended because most lakes and streams are dangerously cold. Firehole Canyon, near Madison Junction, has a swimming area popular in summer. Soaking in thermal features is illegal. The area known as the Boiling River, north of Mammoth Hot Springs, allows soaking in the Gardner River near thermal outflow, but not in the feature itself. Soaking is allowed during daylight hours only and at your own risk.</li>
+
+</ul>
+<h3>Glacier National Park FAQ:</h3>
+<ul>
+    <li>When will Going-to-the-Sun Road open?
+
+        Plowing Going-to-the-Sun Road is a monumental challenge each year. Unpredictable spring snow storms or other weather related events can slow down plowing progress. It is not uncommon for plowing crews to need to re-plow sections of park roads when weather events happen. Safety for our plowing crews, contractors, and the public is our utmost concern and priority. These unknown factors make predicting the opening of Going-to-the-Sun Road impossible. Our plowing status page provides information on where plows are working. As the status of the road changes, we will immediately update our road status page. Portions of Going-to-the-Sun Road remain open all year and provide access to locations like Apgar Village and Lake McDonald Lodge. Please check our road status page for the sections of road that are open.</li>
+
+    <li>What does it mean when a campground is in Primitive Status?
+
+        Campgrounds in primitive status do not have flush toilets or potable water.</li>
+
+    <li>Is hiking the Highline Trail scary?
+
+        There are portions of the trail that have exposure, the most noticeable beginning one hundred yards or so from the trailhead at Logan Pass. The trail can be 3-5 feet wide in places. There is a hand cable available for about 50 yards. The Highline Trail is a gorgeous trail and provides access to the high country's stunning scenery.
+    </li>
+
+</ul>
+
+<p>National Parks FAQ:</p>
+
+<dl>
     <div>
-        <dt>Who is the director of the National Park Service?</dt>
-        <dd class="invisible">Margaret Everson, Counselor to the Secretary, is exercising the delegated authority of the Director of the National Park Service.
+        <dt class="highlighted">Who is the director of the National Park Service?</dt>
+        <dd>Margaret Everson, Counselor to the Secretary, is exercising the delegated authority of the Director of the National Park Service.
             Learn more about past directors of the National Park Service.</dd>
     </div>
 
-    <dt>How many employees are in the National Park Service?</dt>
-    <dd class="invisible">Permanent, temporary, and seasonal employees: Approximately 20,000
+    <dt class="highlighted">How many employees are in the National Park Service?</dt>
+    <dd>Permanent, temporary, and seasonal employees: Approximately 20,000
         Volunteers: More than 279,000 in 2019</dd>
 
-    <dt>How old is the National Park System?</dt>
-    <dd class="invisible">The National Park Service was created by an act signed by President Woodrow Wilson on August 25, 1916. Yellowstone National Park was established by an act signed by President Ulysses S. Grant on March 1, 1872, as the nation's first national park. View the National Park System timeline.</dd>
+    <dt class="highlighted">How old is the National Park System?</dt>
+    <dd>The National Park Service was created by an act signed by President Woodrow Wilson on August 25, 1916. Yellowstone National Park was established by an act signed by President Ulysses S. Grant on March 1, 1872, as the nation's first national park. View the National Park System timeline.</dd>
 
-    <dt>What is the origin of the National Park Service arrowhead?</dt>
-    <dd class="invisible">The arrowhead was authorized as the official National Park Service emblem by the Secretary of the Interior on July 20, 1951. The components of the arrowhead may have been inspired by key attributes of the National Park System, with the sequoia tree and bison representing vegetation and wildlife, the mountains and water representing scenic and recreational values, and the arrowhead itself representing historical and archeological values. Read more about the history of the arrowhead and other elements of NPS visual design.</dd>
+    <dt class="highlighted">What is the origin of the National Park Service arrowhead?</dt>
+    <dd>The arrowhead was authorized as the official National Park Service emblem by the Secretary of the Interior on July 20, 1951. The components of the arrowhead may have been inspired by key attributes of the National Park System, with the sequoia tree and bison representing vegetation and wildlife, the mountains and water representing scenic and recreational values, and the arrowhead itself representing historical and archeological values. Read more about the history of the arrowhead and other elements of NPS visual design.</dd>
 
-    <dt>How many areas are in the National Park System?</dt>
-    <dd class="invisible">The system includes 423 areas covering more than 85 million acres in every state, the District of Columbia, American Samoa, Guam, Puerto Rico, and the Virgin Islands. These areas include national parks, monuments, battlefields, military parks, historical parks, historic sites, lakeshores, seashores, recreation areas, scenic rivers and trails, and the White House. Learn more about national park designations. See the complete list of National Park Service units and related areas by type and number.</dd>
+    <dt class="highlighted">How many areas are in the National Park System?</dt>
+    <dd>The system includes 423 areas covering more than 85 million acres in every state, the District of Columbia, American Samoa, Guam, Puerto Rico, and the Virgin Islands. These areas include national parks, monuments, battlefields, military parks, historical parks, historic sites, lakeshores, seashores, recreation areas, scenic rivers and trails, and the White House. Learn more about national park designations. See the complete list of National Park Service units and related areas by type and number.</dd>
 
-    <dt>What is the largest national park site? Smallest?</dt>
-    <dd class="invisible">TLargest: Wrangell-St. Elias National Park and Preserve, AK, at 13.2 million acres
+    <dt class="highlighted">What is the largest national park site? Smallest?</dt>
+    <dd>TLargest: Wrangell-St. Elias National Park and Preserve, AK, at 13.2 million acres
         Smallest: Thaddeus Kosciuszko National Memorial, PA, at 0.02 acres</dd>
 
-    <dt>How many people visit the national parks?</dt>
-    <dd class="invisible">Total recreation visitors to the national parks in 2019: 327,516,619.</dd>
+    <dt class="highlighted">How many people visit the national parks?</dt>
+    <dd>Total recreation visitors to the national parks in 2019: 327,516,619.</dd>
 
-    <dt>What is the National Park Service budget?</dt>
-    <dd class="invisible">Fiscal Year (FY) 2014 Enacted: $2.98 billion
+    <dt class="highlighted">What is the National Park Service budget?</dt>
+    <dd>Fiscal Year (FY) 2014 Enacted: $2.98 billion
         FY 2015 Enacted: $2.615 billion
         FY 2016 Enacted:$2.851 billion
         FY 2017 Enacted: $2.932 billion</dd>
 
-    <dt>How do I obtain a park entrance pass?</dt>
-    <dd class="invisible">Fewer than one-third of the national parks charge entrance fees. You can obtain park entrance passes by visiting a park site that charges an entrance fee. Entrance fee sites have passes available; we recommend calling a park prior to your visit. (See the park search to locate a specific park.) There are a number of entrance passes available, including park-specific passes as well as passes that offer entrance to more than 2,000 federal recreation sites in addition to the national parks (Annual, Military, Senior, 4th Grade, Access, and Volunteer passes). Learn more about the America the Beautiful - The National Parks and Federal Recreational Lands Pass.</dd>
+    <dt class="highlighted">How do I obtain a park entrance pass?</dt>
+    <dd>Fewer than one-third of the national parks charge entrance fees. You can obtain park entrance passes by visiting a park site that charges an entrance fee. Entrance fee sites have passes available; we recommend calling a park prior to your visit. (See the park search to locate a specific park.) There are a number of entrance passes available, including park-specific passes as well as passes that offer entrance to more than 2,000 federal recreation sites in addition to the national parks (Annual, Military, Senior, 4th Grade, Access, and Volunteer passes). Learn more about the America the Beautiful - The National Parks and Federal Recreational Lands Pass.</dd>
 
-    <dt>Where can I find a park map?</dt>
-    <dd class="invisible">You can view maps on specific park websites or find national park, National Park System, National Trails System, and other maps.</dd>
+    <dt class="highlighted">Where can I find a park map?</dt>
+    <dd>You can view maps on specific park websites or find national park, National Park System, National Trails System, and other maps.</dd>
 
 </dl>
 
@@ -57,14 +109,26 @@
 
 <script>
 
+
     $(document).ready(function(){
+        $("dd").addClass("invisible");
 
         $('#showMeTheAnswers').click(function(e) {
             e.preventDefault();
             $('dd').toggleClass('invisible');
-        })});
+
+        $("dt").click(function() {
+            $(this).toggleClass("highlighted");
+        });
+        $("li").addClass("colorMe");
+
+        $("#clickAndSee").click(function(){
+            // $("ul li:nth-last-child(1)").addClass("colorMe");
+            $("ul").each()
+        });
 
 
+    })});
 </script>
 </body>
 </html>
