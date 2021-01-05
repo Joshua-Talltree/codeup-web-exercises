@@ -113,22 +113,25 @@
     $(document).ready(function(){
         $("dd").addClass("invisible");
 
-        $('#showMeTheAnswers').click(function(e) {
-            e.preventDefault();
-            $('dd').toggleClass('invisible');
+        $("#showMeTheAnswers").toggleClass("invisible");
+        $("dd").click(function(){
+            $(this).toggleClass("invisible");
+        });
 
         $("dt").click(function() {
             $(this).toggleClass("highlighted");
         });
-        $("li").addClass("colorMe");
 
         $("#clickAndSee").click(function(){
             // $("ul li:nth-last-child(1)").addClass("colorMe");
-            $("ul").each()
+            $("ul").each(function(){
+                $(this).children().last().addClass("colorMe");
+            })
         });
-
-
-    })});
+        $("h3").click(function(){
+            $(this).children("li").addClass("bold");
+        });
+    });
 </script>
 </body>
 </html>
