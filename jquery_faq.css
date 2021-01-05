@@ -6,3 +6,9 @@ p{
 .highlighted {
     background: red;
 }
+.blue {
+    color: blue;
+}
+.bold {
+    font-weight: bold;
+}

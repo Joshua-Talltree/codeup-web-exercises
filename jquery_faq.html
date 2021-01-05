@@ -10,7 +10,9 @@
     </style>
 </head>
 <body>
-
+<div>
+    <h1>Would you like to sign up for our news letter?</h1><button type="button" id="disappear"><span>X</span></button>
+</div>
 <button type="button" id="clickAndSee">Click to color me!</button>
 
 <h3>Yosemite National Park FAQ:</h3>
@@ -113,9 +115,8 @@
     $(document).ready(function(){
         $("dd").addClass("invisible");
 
-        $("#showMeTheAnswers").toggleClass("invisible");
-        $("dd").click(function(){
-            $(this).toggleClass("invisible");
+        $("#showMeTheAnswers").click(function(){
+            $("dd").toggleClass("invisible");
         });
 
         $("dt").click(function() {
@@ -129,8 +130,17 @@
             })
         });
         $("h3").click(function(){
-            $(this).children("li").addClass("bold");
+            $(this).next().addClass("bold");
         });
+
+        $("li").click(function(){
+            $(this).parent().children().first().addClass("blue");
+        });
+
+        $("span").click(function(){
+            $("h1").hide(500);
+        });
+
     });
 </script>
 </body>
