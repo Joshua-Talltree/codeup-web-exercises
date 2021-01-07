@@ -1,0 +1,17 @@
+.flash {
+    -moz-animation: flash 0.25s ease-out;
+    -moz-animation-iteration-count: infinite;
+
+    -webkit-animation: flash 0.25s ease-out;
+    -webkit-animation-iteration-count: infinite;
+
+    -ms-animation: flash 0.25s ease-out;
+    -ms-animation-iteration-count: infinite;
+}
+
+@keyframes flash {
+    0% { background-color: transparent; }
+    50% { background-color: #0ddddf; }
+    100% { background-color: transparent; }
+}
+
