@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<button type="button" id="rando">Random Cat Facts!</button>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+<script>
+(function() {
+    "use strict";
+
+    // $.ajax("https://cat-fact.herokuapp.com/facts/random").always(function(data, status, jqXhr) {
+    //     alert("AJAX call completed successfully!");
+    //     console.log("Request status: " + status);
+    //     console.log("Data returned from server:");
+    //     console.log(data);
+    // });
+
+    $("#rando").click(function(e){
+        e.preventDefault();
+        $.get("https://cat-fact.herokuapp.com/facts/random").done(function(data, status){
+        });
+        console.log(data);
+    });
+
+
+    // var obj = {
+    //     "key": "value",
+    //     "number": 45,
+    //     "arr": [1, 2, 3]
+    // };
+    //
+    // console.log(obj.key);
+    // console.log(obj.number);
+    // console.log(obj.arr);
+
+    // $.ajax("https://api.spoonacular.com/recipes/random?apiKey=" + apiKey").done(function(data){
+    //
+    // })
+    // })();
+
+    // $.ajax("/some-url", {
+    //     type: "POST",
+    //     data: {
+    //         name: "John",
+    //         location: "Boston"
+    //     };
+    // })});
+
+})();
+
+</script>
+</body>
+</html>
