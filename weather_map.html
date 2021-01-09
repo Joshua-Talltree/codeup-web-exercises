@@ -6,35 +6,32 @@
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css' rel='stylesheet'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 	integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="weather_map.css">
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.5.1/mapbox-gl-geocoder.css" type="text/css"/>
 
 </head>
 <body class="container">
-    <nav class="navbar sticky-top navbar-dark bg-primary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Weather Map</a>
-        </div>
-    </nav>
-    <div>
-        <p class="d-flex justify-content-left" style="padding: 10px;">Places</p>
-    </div>
-    <form class="d-flex justify-content-left">
-        <input id="place" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-    </form>
     <section class="container">
+        <nav class="navbar navbar-dark d-flex shadow-lg p-3 mb-5 bg-secondary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Weather Map</a>
+            </div>
+        </nav>
+        <div id="geocoder" class="geocoder"></div>
         <div class="row row-col-6 d-flex justify-content-evenly" id="cards">
-            <div class="card" style="height: 25%; width: 18%;"></div>
-            <div class="card" style="height: 25%; width: 18%;"></div>
-            <div class="card" style="height: 25%; width: 18%;"></div>
-            <div class="card" style="height: 25%; width: 18%;"></div>
-            <div class="card" style="height: 25%; width: 18%;"></div>
+            <div class="card d-flex shadow-lg p-3 mb-5 bg-white" style="height: 25%; width: 19%;"></div>
+            <div class="card d-flex shadow-lg p-3 mb-5 bg-white" style="height: 25%; width: 19%;"></div>
+            <div class="card d-flex shadow-lg p-3 mb-5 bg-white" style="height: 25%; width: 19%;"></div>
+            <div class="card d-flex shadow-lg p-3 mb-5 bg-white" style="height: 25%; width: 19%;"></div>
+            <div class="card d-flex shadow-lg p-3 mb-5 bg-white" style="height: 25%; width: 19%;"></div>
         </div>
-    <div id="map" style="height: 325px; width: 100%;"></div>
+    <div class="d-flex shadow-lg p-3 mb-5 bg-white" id="map" style="height: 400px; width: 100%;"></div>
     </section>
 <!-- BootSrap Script -->
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+
 
 <!-- Scripts for WeatherMap HTML -->
 
@@ -44,6 +41,12 @@
 <!-- Keys for WeatherMap -->
 <script src='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js'></script>
 <script src="js/keys.js"></script>
+<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.5.1/mapbox-gl-geocoder.min.js"></script>
 <script src="js/weather_map.js"></script>
+
+
+<!--Mapbox API-->
+
+
 </body>
 </html>
