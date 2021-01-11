@@ -28,15 +28,33 @@ var marker = new mapboxgl.Marker({
     .setLngLat([-98.4916, 29.4260])
     .addTo(map);
 
+// Set Long/Lat with movement of the marker.
+
+// map.on("moveend", function() {
+//     marker.setLngLat(map.getCenter());
+//     dragPoint();
+// });
+//
+// function dragPoint() {
+//     var longLat = marker.getLngLat();
+//     var newLng = longLat.lng;
+//     var newLat = longLat.lat;
+// };
+
+
+
 // Draggable Function:
 
 function onDragEnd() {
     var lngLat = marker.getLngLat();
-    marker.setLngLat()
+    marker.setLngLat();
+    // console.log(lngLat.lng);
+    // console.log(lngLat.lat);
     coordinates.style.display = 'block';
     coordinates.innerHTML =
         'Longitude: ' + lngLat.lng + '<br />Latitude: ' + lngLat.lat;
 }
+
 
 // Returns the search results and updates the cards with the weather at the current coordinates.
 
@@ -55,6 +73,7 @@ function onSearchResult(result) {
 // what functions do I have and how do I use them
 
 marker.on('dragend', onDragEnd);
+// onDragEnd();
 
 // Geocoding Function:
 
@@ -81,7 +100,6 @@ $(document).ready(function(){
         lon:   -98.48527,
         units: "imperial"
     }).done(function(data) {
-        console.log(data);
         var weatherObject = [];
         var dateCount = 0;
         for (var i = 0; i < 40; i++) {
