@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -26,12 +29,19 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1372b3d-5e56-42a2-b7e0-52a010b2c922" name="Default Changelist" comment="Iterating JS missing file...">
-      <change afterPath="$PROJECT_DIR$/BOMandDOMjs.html" afterDir="false" />
+    <list default="true" id="a1372b3d-5e56-42a2-b7e0-52a010b2c922" name="Default Changelist" comment="map, reduce, filter part 2.">
+      <change afterPath="$PROJECT_DIR$/es6-scratch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map-filter-reduce-lec.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOM.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOM.js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture Docs/exercise_101.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax-store.html" beforeDir="false" afterPath="$PROJECT_DIR$/ajax-store.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeup-web-exercises.iml" beforeDir="false" afterPath="$PROJECT_DIR$/codeup-web-exercises.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dom-query-js.html" beforeDir="false" afterPath="$PROJECT_DIR$/dom-query-js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es6.html" beforeDir="false" afterPath="$PROJECT_DIR$/es6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_weather_by_address.html" beforeDir="false" afterPath="$PROJECT_DIR$/get_weather_by_address.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map-filter-reduce.js" beforeDir="false" afterPath="$PROJECT_DIR$/map-filter-reduce.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapbox_maps_api.html" beforeDir="false" afterPath="$PROJECT_DIR$/mapbox_maps_api.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrap2.html" beforeDir="false" afterPath="$PROJECT_DIR$/scrap2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +52,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -56,6 +66,14 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -97,27 +115,25 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/.." />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/js" />
-      <recent name="$PROJECT_DIR$/Lecture Docs" />
-      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/CSS" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Lecture Docs" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.welcome.html">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Node.js.es6-scratch.js">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,13 +144,16 @@
     <configuration name="welcome.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/codeup-web-exercises/welcome.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="es6-scratch.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/es6-scratch.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.es6-scratch.js" />
         <item itemvalue="JavaScript Debug.welcome.html" />
         <item itemvalue="JavaScript Debug.order-pizza.html" />
         <item itemvalue="JavaScript Debug.welcome.html" />
         <item itemvalue="JavaScript Debug.order-pizza.html" />
-        <item itemvalue="JavaScript Debug.welcome.html" />
       </list>
     </recent_temporary>
   </component>
@@ -190,126 +209,16 @@
       <workItem from="1607114746181" duration="1311000" />
       <workItem from="1607302527628" duration="160000" />
       <workItem from="1607302781360" duration="7069000" />
-      <workItem from="1607371378717" duration="10626000" />
-    </task>
-    <task id="LOCAL-00001" summary="Loops add to top off the day">
-      <created>1605243248164</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1605243248164</updated>
-    </task>
-    <task id="LOCAL-00002" summary="New loops to add for the day">
-      <created>1605301034271</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1605301034271</updated>
-    </task>
-    <task id="LOCAL-00003" summary="new arrays html and js files for today...">
-      <created>1605409670338</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1605409670338</updated>
-    </task>
-    <task id="LOCAL-00004" summary="new arrays html and js files for today...">
-      <created>1605754584216</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1605754584216</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Github HTML doc from exercise #2">
-      <created>1605797113406</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1605797113406</updated>
-    </task>
-    <task id="LOCAL-00006" summary="CSS inline and external exercise...">
-      <created>1605883134626</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1605883134626</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Lorem - CSS Selectors assignment 11/20/2020">
-      <created>1605895480805</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1605895480805</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Login form HTML/CSS from Friday 11/20/2020.">
-      <created>1606021314241</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1606021314241</updated>
-    </task>
-    <task id="LOCAL-00009" summary="login CSS file update">
-      <created>1606025100337</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1606025100337</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Messages stylesheet from Friday's (11/20/2020) exercise.">
-      <created>1606108192129</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1606108192129</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Updated login CSS page.">
-      <created>1606145069802</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1606145069802</updated>
-    </task>
-    <task id="LOCAL-00012" summary="twitter CSS and HTML exercise.">
-      <created>1606162654905</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1606162654905</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Lorem - CSS Selectors assignment 11/20/2020">
-      <created>1606250336488</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1606250336488</updated>
-    </task>
-    <task id="LOCAL-00014" summary="flex-forms travel destination 11/25/2020">
-      <created>1606353503742</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1606353503742</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Lorem - CSS Selectors assignment 11/20/2020">
-      <created>1606446488552</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1606446488552</updated>
-    </task>
-    <task id="LOCAL-00016" summary="flexbox nav bar exercise 11/27/2020">
-      <created>1606539931910</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1606539931910</updated>
-    </task>
-    <task id="LOCAL-00017" summary="updated flexbox-nav-exercise 11/28/2020">
-      <created>1606619615905</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1606619615905</updated>
+      <workItem from="1607371378717" duration="20902000" />
+      <workItem from="1607470729945" duration="15000" />
+      <workItem from="1607470758720" duration="127000" />
+      <workItem from="1607612587834" duration="14929000" />
+      <workItem from="1607714305443" duration="13657000" />
+      <workItem from="1607958984767" duration="1202000" />
+      <workItem from="1608001409300" duration="754000" />
+      <workItem from="1608233692713" duration="34804000" />
+      <workItem from="1609776623140" duration="109383000" />
+      <workItem from="1610463862799" duration="31164000" />
     </task>
     <task id="LOCAL-00018" summary="Lorem - CSS Selectors assignment 11/20/2020">
       <created>1606712173514</created>
@@ -472,7 +381,189 @@
       <option name="project" value="LOCAL" />
       <updated>1607440530352</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="dom exercise part 2...">
+      <created>1607448351894</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1607448351894</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Final dom exercise commit, Mission Accomplished!">
+      <created>1607450415955</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1607450415955</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Javascript is cool! update #1">
+      <created>1607459505097</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1607459505097</updated>
+    </task>
+    <task id="LOCAL-00044" summary="dom commit part 3....">
+      <created>1607464626865</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1607464626865</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Mapbox API exercise part 1">
+      <created>1607641671004</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1607641671004</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Mapbox API exercise part 2">
+      <created>1607919106653</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1607919106653</updated>
+    </task>
+    <task id="LOCAL-00047" summary="jquery exercise, first commit">
+      <created>1608238040628</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1608238040628</updated>
+    </task>
+    <task id="LOCAL-00048" summary="jquery exercise complete..">
+      <created>1608243919503</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1608243919503</updated>
+    </task>
+    <task id="LOCAL-00049" summary="New jquery exercises html...">
+      <created>1608320099629</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1608320099629</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Fixed jquery exercises html..">
+      <created>1608320221151</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1608320221154</updated>
+    </task>
+    <task id="LOCAL-00051" summary="konami html exercise..">
+      <created>1608333302503</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1608333302503</updated>
+    </task>
+    <task id="LOCAL-00052" summary="jquery exercises part 2...">
+      <created>1608436218341</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1608436218341</updated>
+    </task>
+    <task id="LOCAL-00053" summary="jquery_faq part 1">
+      <created>1609782430608</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1609782430610</updated>
+    </task>
+    <task id="LOCAL-00054" summary="jquery_faq pt 2.">
+      <created>1609798981287</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1609798981287</updated>
+    </task>
+    <task id="LOCAL-00055" summary="jquery faq part 3">
+      <created>1609817471218</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1609817471218</updated>
+    </task>
+    <task id="LOCAL-00056" summary="jquery faq part 4">
+      <created>1609863410821</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1609863410821</updated>
+    </task>
+    <task id="LOCAL-00057" summary="weather map and other commits.">
+      <created>1609979470848</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1609979470848</updated>
+    </task>
+    <task id="LOCAL-00058" summary="weather map part 2">
+      <created>1610039738938</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1610039738938</updated>
+    </task>
+    <task id="LOCAL-00059" summary="weather map part 3">
+      <created>1610048111639</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1610048111639</updated>
+    </task>
+    <task id="LOCAL-00060" summary="weather map part 3">
+      <created>1610048133316</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1610048133316</updated>
+    </task>
+    <task id="LOCAL-00061" summary="weather map part 4">
+      <created>1610059119695</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1610059119696</updated>
+    </task>
+    <task id="LOCAL-00062" summary="weather map part 4">
+      <created>1610223630026</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1610223630026</updated>
+    </task>
+    <task id="LOCAL-00063" summary="es6 part 1.">
+      <created>1610481442648</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1610481442649</updated>
+    </task>
+    <task id="LOCAL-00064" summary="es6 part 2.">
+      <created>1610482903306</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1610482903306</updated>
+    </task>
+    <task id="LOCAL-00065" summary="map, filter, reduce pt 1.">
+      <created>1610515005190</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1610515005190</updated>
+    </task>
+    <task id="LOCAL-00066" summary="map, reduce, filter part 2.">
+      <created>1610553966428</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1610553966428</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -505,31 +596,31 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
-    <MESSAGE value="Login form HTML/CSS from Friday 11/20/2020." />
-    <MESSAGE value="login CSS file update" />
-    <MESSAGE value="Messages stylesheet from Friday's (11/20/2020) exercise." />
-    <MESSAGE value="Updated login CSS page." />
-    <MESSAGE value="twitter CSS and HTML exercise." />
-    <MESSAGE value="flex-forms travel destination 11/25/2020" />
-    <MESSAGE value="flexbox nav bar exercise 11/27/2020" />
-    <MESSAGE value="updated flexbox-nav-exercise 11/28/2020" />
-    <MESSAGE value="Newest Media Queries of the day!" />
-    <MESSAGE value="Order pizza CSS and HTML 12/01/2020" />
-    <MESSAGE value="Order pizza bootstrap exercise 12/1/2020" />
-    <MESSAGE value="My welcome html file from 11/24/2020" />
-    <MESSAGE value="missing files pt. 2" />
-    <MESSAGE value="CSS Selectors missing file" />
-    <MESSAGE value="Conditionals missing JS file" />
-    <MESSAGE value="Missing HTML Docs 12/2/2020" />
-    <MESSAGE value="Lorem - CSS Selectors assignment 11/20/2020" />
-    <MESSAGE value="Bootstrap resume update.. 12/2/2020" />
-    <MESSAGE value="iterating JS missing file 12/2/2020" />
-    <MESSAGE value="Plant Arrays JS missing file 12/2/2020" />
-    <MESSAGE value="Iterating JS missing file..." />
-    <MESSAGE value="For loops missing JS file.." />
-    <MESSAGE value="Break and Continue JS missing file..." />
-    <MESSAGE value="Exercise for the day (BOM js files).." />
     <MESSAGE value="dom exercise stage 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="dom exercise stage 1" />
+    <MESSAGE value="dom exercise part 2..." />
+    <MESSAGE value="Final dom exercise commit, Mission Accomplished!" />
+    <MESSAGE value="Javascript is cool! update #1" />
+    <MESSAGE value="dom commit part 3...." />
+    <MESSAGE value="Mapbox API exercise part 2" />
+    <MESSAGE value="jquery exercise, first commit" />
+    <MESSAGE value="jquery exercise complete.." />
+    <MESSAGE value="New jquery exercises html..." />
+    <MESSAGE value="Fixed jquery exercises html.." />
+    <MESSAGE value="konami html exercise.." />
+    <MESSAGE value="jquery exercises part 2..." />
+    <MESSAGE value="jquery_faq part 1" />
+    <MESSAGE value="jquery_faq pt 2." />
+    <MESSAGE value="jquery faq part 3" />
+    <MESSAGE value="jquery faq part 4" />
+    <MESSAGE value="Mapbox API exercise part 1" />
+    <MESSAGE value="weather map and other commits." />
+    <MESSAGE value="weather map part 2" />
+    <MESSAGE value="weather map part 3" />
+    <MESSAGE value="weather map part 4" />
+    <MESSAGE value="es6 part 1." />
+    <MESSAGE value="es6 part 2." />
+    <MESSAGE value="map, filter, reduce pt 1." />
+    <MESSAGE value="map, reduce, filter part 2." />
+    <option name="LAST_COMMIT_MESSAGE" value="map, reduce, filter part 2." />
   </component>
 </project>
