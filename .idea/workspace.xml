@@ -29,19 +29,18 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1372b3d-5e56-42a2-b7e0-52a010b2c922" name="Default Changelist" comment="map, reduce, filter part 2.">
-      <change afterPath="$PROJECT_DIR$/es6-scratch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/map-filter-reduce-lec.js" afterDir="false" />
+    <list default="true" id="a1372b3d-5e56-42a2-b7e0-52a010b2c922" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/scratch-paper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scratch-paper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture Docs/exercise_101.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax-store.html" beforeDir="false" afterPath="$PROJECT_DIR$/ajax-store.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeup-web-exercises.iml" beforeDir="false" afterPath="$PROJECT_DIR$/codeup-web-exercises.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dom-query-js.html" beforeDir="false" afterPath="$PROJECT_DIR$/dom-query-js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es6.html" beforeDir="false" afterPath="$PROJECT_DIR$/es6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_weather_by_address.html" beforeDir="false" afterPath="$PROJECT_DIR$/get_weather_by_address.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map-filter-reduce.js" beforeDir="false" afterPath="$PROJECT_DIR$/map-filter-reduce.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapbox_maps_api.html" beforeDir="false" afterPath="$PROJECT_DIR$/mapbox_maps_api.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrap2.html" beforeDir="false" afterPath="$PROJECT_DIR$/scrap2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jquery_exercises.html" beforeDir="false" afterPath="$PROJECT_DIR$/jquery_exercises.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jquery_faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/jquery_faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/filter/reduce.html" beforeDir="false" afterPath="$PROJECT_DIR$/map/filter/reduce.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice-promises.js" beforeDir="false" afterPath="$PROJECT_DIR$/practice-promises.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/promises.css" beforeDir="false" afterPath="$PROJECT_DIR$/promises.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/promises.html" beforeDir="false" afterPath="$PROJECT_DIR$/promises.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrap2.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,43 +114,30 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/.." />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CSS" />
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/data" />
-      <recent name="$PROJECT_DIR$/CSS" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Lecture Docs" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.es6-scratch.js">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="order-pizza.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/codeup-web-exercises/order-pizza.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="welcome.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/codeup-web-exercises/welcome.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="es6-scratch.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/es6-scratch.js" working-dir="$PROJECT_DIR$">
+    <configuration name="es6-scratch.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/es6-scratch.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.es6-scratch.js" />
-        <item itemvalue="JavaScript Debug.welcome.html" />
-        <item itemvalue="JavaScript Debug.order-pizza.html" />
         <item itemvalue="JavaScript Debug.welcome.html" />
         <item itemvalue="JavaScript Debug.order-pizza.html" />
       </list>
@@ -218,28 +204,11 @@
       <workItem from="1608001409300" duration="754000" />
       <workItem from="1608233692713" duration="34804000" />
       <workItem from="1609776623140" duration="109383000" />
-      <workItem from="1610463862799" duration="31164000" />
-    </task>
-    <task id="LOCAL-00018" summary="Lorem - CSS Selectors assignment 11/20/2020">
-      <created>1606712173514</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1606712173514</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Newest Media Queries of the day!">
-      <created>1606767898228</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1606767898228</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Lorem - CSS Selectors assignment 11/20/2020">
-      <created>1606768381917</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1606768381917</updated>
+      <workItem from="1610463862799" duration="36078000" />
+      <workItem from="1610641354107" duration="10963000" />
+      <workItem from="1611104188845" duration="1593000" />
+      <workItem from="1611165589758" duration="3883000" />
+      <workItem from="1611243024093" duration="605000" />
     </task>
     <task id="LOCAL-00021" summary="Order pizza CSS and HTML 12/01/2020">
       <created>1606859980302</created>
@@ -563,7 +532,28 @@
       <option name="project" value="LOCAL" />
       <updated>1610553966428</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="map, reduce, filter part 3.">
+      <created>1610561229451</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1610561229452</updated>
+    </task>
+    <task id="LOCAL-00068" summary="pushing some files to their correct places.">
+      <created>1610637604956</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1610637604956</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Ajax Blog pt 1.">
+      <created>1611168776050</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1611168776051</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -596,9 +586,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
-    <MESSAGE value="dom exercise stage 1" />
-    <MESSAGE value="dom exercise part 2..." />
-    <MESSAGE value="Final dom exercise commit, Mission Accomplished!" />
     <MESSAGE value="Javascript is cool! update #1" />
     <MESSAGE value="dom commit part 3...." />
     <MESSAGE value="Mapbox API exercise part 2" />
@@ -621,6 +608,9 @@
     <MESSAGE value="es6 part 2." />
     <MESSAGE value="map, filter, reduce pt 1." />
     <MESSAGE value="map, reduce, filter part 2." />
-    <option name="LAST_COMMIT_MESSAGE" value="map, reduce, filter part 2." />
+    <MESSAGE value="map, reduce, filter part 3." />
+    <MESSAGE value="pushing some files to their correct places." />
+    <MESSAGE value="Ajax Blog pt 1." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajax Blog pt 1." />
   </component>
 </project>
