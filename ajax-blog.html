@@ -8,13 +8,13 @@
     <style>
 
         p {
-            font-family: Geeza Pro;
+            font-family: "Britannic Bold";
         }
     </style>
 </head>
 <body>
 
-    <div id="post"></div>
+    <div class="container" id="post"></div>
 
 </body>
 
@@ -34,10 +34,10 @@
             data.forEach(function(post){
                 console.log(post);
 
-                HTML = '<h4>' + post.title + '</h4>'
+                HTML = '<div>' + '<h4>' + post.title + '</h4>'
                 + '<h6>' + post.date + '</h6>'
                 + '<p>' + post.content + '</p>'
-                + '<span>' + post.categories + '</span>';
+                + '<span>' + post.categories + '</span>' + '</div>';
 
                 $("#post").append(HTML)
 
