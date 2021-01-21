@@ -8,7 +8,7 @@
     <style>
 
         p {
-            font-family: "Britannic Bold";
+            font-family: "Copperplate Gothic Bold",serif;
         }
     </style>
 </head>
@@ -34,9 +34,9 @@
             data.forEach(function(post){
                 console.log(post);
 
-                HTML = '<div>' + '<h4>' + post.title + '</h4>'
-                + '<h6>' + post.date + '</h6>'
-                + '<p>' + post.content + '</p>'
+                HTML = '<div class="col-12 row">' + '<h4 class="d-flex justify-content-center">' + post.title + '</h4>'
+                + '<h6 class="d-flex justify-content-center">' + post.date + '</h6>'
+                + '<p class="d-flex justify-content-center">' + post.content + '</p>'
                 + '<span>' + post.categories + '</span>' + '</div>';
 
                 $("#post").append(HTML)
